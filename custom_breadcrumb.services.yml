@@ -1,0 +1,5 @@
+services:
+  custom_breadcrumb.breadcrumb_views:
+    class: Drupal\custom_breadcrumb\Breadcrumb\ViewsBreadcrumbBuilder
+    tags:
+      - { name: breadcrumb_builder, priority: 1 }
